@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    width: 100vw;
+    height: 100vh;
+    font-family: sans-serif;
+    padding: 10em 10em;
+    /* background: url(./about.png); */
+    /* background: url(./bg1.png); */
+    background-size: contain;
+    background-image:linear-gradient(to bottom, rgba(10, 232, 54, 0.605) 20%,
+    rgb(140, 35, 232)), url(./bg1.png);
+    /* background-color: rgb(72, 197, 255); */
+    /* opacity: 0.5; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: 100% 20%;
+    position: relative;
+    background-size: 100% 100%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    }
+   .muthupandi{
+    /* position: relative; */
+    float: inline-start;
+    width: 82px;
+    height: 40px;
+    align-self: center;
+    display: block;
+    margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transform: translatey(-5%);
+
+   }
+   .sanjai {
+    position: absolute;
+    text-align: center;
+    top: 2%;
+    left: 42%;;
+   }
+    .glass {
+        margin: auto;
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.711);
+    padding: 50px;
+    color: #000;
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.444);
+    line-height: 1.5;
+    transform: translatey(-5%);
+    transition: transform 0.5s;
+    }
+    .glass-1 {
+    width: 700px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 50px;
+    color: rgb(29, 9, 130);
+    border-radius: 9px;
+    backdrop-filter: blur(50px);
+    border: 2px solid transparent;
+    background-clip: padding-box;
+    box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.3);
+    line-height: 1.5;
+    transform: translatey(-5%);
+    transition: transform 0.5s;
+    font-size: 1.7rem;
+    }
+    .glass h1 {
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    }
+    .glass h2 {
+    font-size: 1rem;
+    margin-top: 20px;
+    }
+    .input {
+    width: 100%;
+    height: 70px;
+    overflow: hidden;
+    margin-top: 40px;
+    }
+    .input input {
+    width: 100%;
+    height: 70px;
+    border: none;
+    padding-left: 30px;
+    padding-top: 0;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    }
+    .glass p {
+    font-size: 1.6rem;
+    margin-top: 30px;
+    }
